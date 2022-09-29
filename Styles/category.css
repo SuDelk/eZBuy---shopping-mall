@@ -1,0 +1,66 @@
+.img1{
+	align-content: center;
+    background-color: deepskyblue;
+    align-items: left;
+	width: 80%;
+	height: 80%;
+	padding: 0px;
+	margin: 0px;
+
+}
+td{
+	width: auto;
+	padding: 10px 5px;
+	position: relative;
+	font-family: Arial;
+	font-weight: 500;
+	font-size: 15px;
+	position: relative;
+}
+table.tab1{
+	align-content: center;
+	width: 100%;
+	border-color: transparent ;
+	border-bottom: solid 3px deepskyblue;
+
+}
+.col1{
+	width: auto;
+	text-align: center;
+	max-width: 250px;
+}
+h1{
+	color: rebeccapurple;
+	font-size: 42px;
+}
+h2{
+	color: darkcyan;
+	font-size: 30px;
+	font-family: consolas;
+}
+h3{
+	font-size: 20px;
+	font-weight: 600;
+}
+small{
+	font-size: 18px;
+	font-family: arial;
+}
+button.addItems{
+	font-family: Arial;
+	margin: 5px;
+  	text-align: center;
+  	border: 2px solid ;
+  	padding: 10px;
+  	width: 150px;
+  	color: white;
+  	background-color: orange;
+    width: cover;
+    height: cover;
+  	position: relative;
+}
+button.addItems:hover{
+      color: black;
+      background-color: greenyellow;
+      border: none;
+}

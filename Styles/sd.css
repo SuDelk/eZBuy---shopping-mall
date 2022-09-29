@@ -1,0 +1,10 @@
+table#tab1{
+	border: solid 1px orange;
+}
+#tab1 td{
+	border-right: solid 1px orange;
+}
+#tab1 th{
+	border-right: solid 1px rebeccapurple;
+	border-bottom: solid 2px rebeccapurple;
+}

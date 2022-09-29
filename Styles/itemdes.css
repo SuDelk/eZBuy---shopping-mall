@@ -1,0 +1,86 @@
+.item-des{
+	margin-top: 80px;
+	margin-bottom: 320px;
+}
+
+.item-des .col-2 img{
+	padding:0;
+}
+
+.item-des .col-2{
+	padding: 20px;
+
+}
+.itemdetail{
+	margin-left: 100px;
+	padding: 25px;
+}
+
+.small_imgs{
+	margin-top: 9.5%;
+	margin-left: 10px;
+}
+
+input.butt[type="submit"]{
+	font-family: Arial;
+	margin: 5px;
+  	text-align: center;
+  	border: 1px solid ;
+  	padding: 3.2px;
+  	background-image: url("../Images/btnBG.jpg");
+  	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+  	position: relative;
+}
+
+.checked {
+  color: orange;
+}
+
+#recommend{
+	margin: 15px;
+}
+
+#Delivery{
+
+	background-color: lightgrey;
+  	width: 300px;
+  	border: 15px solid black;
+ 	padding: 50px;
+  	margin: 10px;
+}
+
+#Warranty{
+	background-color: lightgrey;
+  	width: 300px;
+  	border: 15px solid black;
+ 	padding: 50px;
+  	margin: 10px;
+
+}
+
+button.butt:hover{
+	background-image: none;
+	background-color: orange;
+	color: black;
+}
+img#reco2,#reco1{
+	width: 33%;
+}
+td.reco{
+	text-align: center;
+}
+button.butt{
+	background-color: darkmagenta;
+	padding : 5px;
+	border-color: transparent;
+	color: whitesmoke;
+	font-family: verdana;
+	font-weight: 600;
+}
+.minImage{
+	cursor: pointer;
+}

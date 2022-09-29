@@ -1,0 +1,25 @@
+#login{
+	text-align: center;
+
+}
+
+.loginText{
+	text-align: center;
+
+}
+
+#UNoEA{
+	text-align: center;
+
+}
+#proceed{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+.logform{
+	margin-bottom: 50px;
+	margin-top: 20px;
+}

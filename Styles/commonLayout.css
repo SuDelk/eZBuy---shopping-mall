@@ -1,0 +1,55 @@
+#headers{
+	
+	background-image: url(../Images/headerbg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:cover;
+	height:cover;
+}
+
+#logo{
+	width: 100px;
+}
+.category{
+	margin: 5px;
+  	text-align: center;
+  	border: 3px solid ;
+  	padding: 10px;
+}
+
+.navigation{
+	float: right;
+}
+
+
+#PAC{
+	background-color: red;
+	text-align: center;
+	
+}
+
+.links{
+	margin: 15px;
+}
+
+.bottom1{
+	list-style-type:none;
+
+}
+
+.bottom2{
+	list-style-type:none;
+	text-align: center;
+}
+
+.bottom3{
+	
+}
+
+#btmstn{
+	background-image: url(../Images/headerbg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:cover;
+	height:cover;
+}

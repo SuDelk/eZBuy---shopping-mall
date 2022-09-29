@@ -1,0 +1,21 @@
+.abtUsBlock{
+    display:inline-flex
+}
+
+.image{
+    width:50%;
+    height:40%;
+    margin: 20px;
+}
+
+.topic{
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 40px;
+}
+
+.para{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}

@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box ;
+}
+
+.navbar{
+	background-image: url("../Images/bg.png");
+	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+	align-items: center;
+	padding: 10px;
+}
+nav.top{
+	flex: 1;
+	text-align: right;
+}
+nav.top ul{
+	border: solid 1px black;
+	display: inline-block;
+	list-style-type: none ;
+	background-color: skyblue;
+}
+nav ul li{
+	display: inline-block;
+    margin: 10px;
+}
+nav.top ul li a{
+
+	text-decoration: none ;
+	color: black;
+}
+nav.top ul li a:hover{
+	color: #A00;
+}
+.container{
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.navigation{
+	font-size: 10pt;
+	height: 25px;
+	margin: 2px;
+}
+i{
+	padding: 5px;
+}
+.category{
+    font-family: Arial;
+	  margin: 5px;
+  	text-align: center;
+  	border: 2px solid ;
+  	padding: 10px;
+  	width: 150px;
+  	background-image: url("../Images/btnBG.jpg");
+  	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+  	position: relative;
+}
+button.category:hover{
+	font-family: consolas;
+	background-image: url("../Images/btnBG1.jpeg");
+	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+}
+hr.new1{
+  border-top: 2px solid black;
+}
+nav.foot{
+	text-align: center;
+}
+ul.foot{
+	list-style-type: none;
+	float: center;
+	display: inline-block;
+	text-align: center;
+}
+ul.foot li{
+	display: inline-block;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+nav.foot ul li a{
+	text-decoration: none ;
+	color: grey;
+}
+nav.foot ul li a:hover{
+	color: darkcyan;
+}
+td li{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+}
+td{
+	width: 33.333%;
+}
+td a{
+	margin: 25px;
+}
+td a img{
+	width: 25px;
+}
+footer{
+	background-image: url("../Images/bg.png");
+	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+}
+#head{
+	display: block; 
+	font-size: 1.5em; 
+	margin-top: 0.83em; 
+	margin-bottom: 0.83em; 
+	margin-left: 0; 
+	margin-right: 0; 
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	font-family: consolas;
+}
+.fut li a{
+	text-decoration: none ;
+	color: #555555 ;
+}

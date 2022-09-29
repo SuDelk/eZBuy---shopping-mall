@@ -1,0 +1,94 @@
+
+#Home{
+	color: rebeccapurple;
+	text-align: center;
+	font-family: verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+#late_head{
+	color: darkcyan;
+	stroke: solid 2px rebeccapurple;
+	font-family: georgia;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 26px;
+
+}
+
+.Latest{
+	width: 225px;
+	border-radius: 50%;
+	padding: 1px;
+	border: 8px solid transparent;
+	background: linear-gradient(45deg,#376ADF,purple);
+	margin: 10px 20px 10px 10px;
+}
+.Latest_details{
+	text-align: center;
+	color: #042E8F;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+table td{
+	width: auto;
+	padding: 10px 5px;
+	position: relative;
+	align-items: center;
+	text-align: center;
+}
+table th{
+	width: auto;
+	padding: 10px 5px;
+	position: relative;
+}
+table{
+	width: 100%;
+	border-width: collapse;
+	border-color: transparent;
+
+}
+
+#home_table{
+	padding: : 20px 30px 10px 00px;
+	
+}
+
+.viewmore{
+	text-align: center; 
+    vertical-align: middle;
+    background-color: #376ADF;
+    color: white;
+    width: 60px;
+    height: 40px;
+}
+button.viewmore:hover{
+    color: black;
+    background-color: orange;
+}
+
+
+.subpics{
+	width: 225px;
+	border-radius: 50%;
+	padding: 1px;
+	border: 8px solid transparent;
+	background: radial-gradient(#47A,slateblue);
+	vertical-align: middle;
+
+}
+
+.tablehead{
+	color: #376ADF;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+table tr th{
+	width: auto;
+}

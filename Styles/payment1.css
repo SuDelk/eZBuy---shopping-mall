@@ -1,0 +1,98 @@
+body{
+	overflow: auto;
+}
+.row{
+	width: 100%;
+	background-image: url("../Images/bg2.jpg");
+	background-size: cover;
+}
+
+fieldset{
+	background-color: floralwhite;
+}
+.column{
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.vl{
+	border-left: 4px solid black;
+	height: 400px;
+	position: absolute;
+	left: 49%; 
+}
+
+#pay{
+	float: right;
+	padding: 15px;
+	width: 25%;
+	margin-right: 55px;
+	border-radius: 7px;
+	box-shadow: 0 10px gray;
+	cursor: pointer;
+}
+
+
+.fill{
+	border: 0.5px solid black;
+	width: 98%;
+	padding: 10px;
+}
+
+.input{
+	border: none;
+	width: 250px;
+	background-color: floralwhite;
+  }
+
+.bttn1{
+	padding: 30px;
+	border-radius: 7PX;
+	box-shadow: 0 9px gray;
+	cursor: pointer;
+	color: black;
+}
+
+hr.tot{
+	height: 3px;
+	background-color: black;
+}
+
+.total{
+	border: 1px solid black;
+	text-align: center;
+	width: 15%;
+	padding: 20px;
+	margin: 10px;
+	background-color: purple;
+	color : white;
+	font-family: verdana;
+	font-size: 18px;
+}
+input[type="submit"]{
+	float: right;
+	padding: 15px;
+	width: 25%;
+	margin-right: 55px;
+	border-radius: 7px;
+	box-shadow: 0 10px gray;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	float: right;
+	padding: 15px;
+	width: 25%;
+	margin-right: 55px;
+	border-radius: 7px;
+	box-shadow: 0 10px gray;
+	cursor: pointer;
+	background-color: skyblue;
+}

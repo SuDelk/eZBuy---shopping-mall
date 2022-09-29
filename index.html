@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>eZBuy | Online Shopping Mall</title>
+	<link rel="stylesheet" type="text/css" href="Styles/style.css">
+	<link rel="stylesheet" type="text/css" href="Styles/home.css">
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="Scripts/homejs.js"></script>
+</head>
+<body>
+  <div class="container">
+  	<div class="navbar">
+  	  <div class="logo">
+  	  	<center><img src="Images/logo1.png" width="250px"></center>
+  		<nav class="top">
+  			<ul>
+  				<li><a href="">Home</a></li>
+  				<li><a href="">Sign Up</a></li>
+  				<li><a href="Login.html">Log In</a></li>
+  				<li><a href="">Help</a></li>
+  			</ul><br>
+  			  <form method="GET" action="/action_page.php">
+     		    <input  class="navigation" type="text" placeholder="Search.." name="search" >
+      		  <button class="navigation" type="submit"><i class="fa fa-search"></i></button>
+    		  </form>
+  		</nav>
+  	  </div>
+  	      <div align="center">		
+			        <button class="category" id="gym" onclick="window.location.href='gym.php'">Sports&Gym</button>
+			        <button class="category" id="fashion" onclick="window.location.href='fashion.php'">Fashion</button>
+			        <button class="category" id="kids" onclick="window.location.href='kids.php'">Kids&Toys</button>
+			        <button class="category" id="groceries" onclick="window.location.href='groceries.php'">Groceries</button>
+		        	<button class="category" id="beauty" onclick="window.location.href='beauty.php'">Health&Beauty</button>
+		        	<button class="category" id="electronics" onclick="window.location.href='electronics.php'">Electrical Items</button>
+			        <button class="category" id="pharmacy" onclick="window.location.href='phar.php'">Pharmaceutical</button>
+			        <button class="category" id="books" onclick="window.location.href='books.php'">Books</button>
+			        <br>
+		      </div>
+		      <hr class="new1">
+    </div>
+
+	<div>		
+		
+
+		<h2 id="Home">Home<h2>
+			<br><br>
+		<h3 id="late_head">Latest Items</h3>
+			<br><br>
+			
+		<table border="1" class="table01">
+			<tr>
+				<td><a href="Item Description.html"><img src="Images/jordan.jpg" alt="Item1" class="Latest" id="l1" onclick="loadItems('l1')"></a></td>
+				<td><a href="Item Description.html"><img src="Images/fancy.jpg" alt="Item2" class="Latest" id="l2" onclick="loadItems('l2')"></a></td>
+				<td><a href="Item Description.html"><img src="Images/psg3.png" alt="Item3" class="Latest" id="l3" onclick="loadItems('l3')"></a></td>
+				<td><a href="Item Description.html"><img src="Images/grain.jpg" alt="Item4" class="Latest" id="l4" onclick="loadItems('l4')"></a></td>
+			</tr>
+			<tr class="Latest_details">
+				<td class="Latest_details">Red and Black Jordan One</td>
+				<td class="Latest_details">Fancy Brown Broug Shoes</td>
+				<td class="Latest_details">2021/2022 PSG Thrid Jersey</td>
+				<td class="Latest_details">Kellogg's Nutri Grain</td>
+			</tr>
+			<tr >
+				<td class="Latest_details">Rs. 35000</td>
+				<td class="Latest_details">Rs.6450</td>
+				<td class="Latest_details">Rs.25000</td>
+				<td class="Latest_details">Rs.380</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+			<br><br>
+		<table  border="1" width="100%" id="home_table"  class="table01">
+
+		<tr>
+			<th class="tablehead" colspan="3">Sports & Gym</th>
+			<th class="tab2"></th>
+			<th class="tablehead" colspan="3">Kids & Toys</th>
+		</tr>
+
+		<tr>	
+			<td class="tab1" ><img src="Images/sng1.jpg" alt="Item5" class="subpics"></td>
+			<td class="tab1"><img src="Images/sng2.jpg" alt="Item6" class="subpics"></td>
+			<td class="tab2" ><button class="viewmore">View More...</button></td>
+      <td class="tab2"></td>
+			<td class="tab1"><img src="Images/knt1.jpg" alt="Item7" class="subpics"></td>
+			<td class="tab1"><img src="Images/knt2.jpg" alt="Item8" class="subpics"></td>
+			<td class="tab2"><button class="viewmore">View More...</button></td>
+		</tr>
+		<tr>
+			<td class="tab3">Euro 2020 Replica Ball</td>
+			<td class="tab3">Dumbell</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Lego City Edition</td>
+			<td class="tab3">Teddy Bear Brown</td>
+			<td class="tab2"></td>
+		</tr>
+		<tr><td class="tab3">Rs.2890</td>
+			<td class="tab3">Rs.1200</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Rs.8900</td>
+			<td class="tab3">Rs.2500</td>
+			<td class="tab2"></td>
+		</tr>			
+		<tr>
+			<th class="tablehead" colspan="3">Fashion</th>
+			<th class="tab2"></th>
+			<th class="tablehead" colspan="3">Health & Beauty</th>
+
+		</tr>
+		
+		<tr>
+			<td class="tab1"><img src="Images/fash1.jpg" alt="Item9" class="subpics"></td>
+			<td class="tab1"><img src="Images/fash2.jpg" alt="Item10" class="subpics"></td>
+			<td class="tab2"><button class="viewmore">View More...</button></td>
+			<td class="tab2"></td>	
+			<td class="tab1"><img src="Images/bnh1.jpg" alt="Item11" class="subpics"></td>
+			<td class="tab1"><img src="Images/bnh2.jpg" alt="Item12" class="subpics"></td>
+			<td class="tab2"><button class="viewmore" id="hnb" value="beauty">View More...</button></td>
+		</tr>
+		<tr>
+			<td class="tab3">Kylie Jenner Lip Gloss</td>
+			<td class="tab3">Fenty Foundation</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Dove Conditioner</td>
+			<td class="tab3">Kumarika</td>
+			<td class="tab2"></td>
+		</tr>
+		<tr>
+			<td class="tab3">Rs.1890</td>
+			<td class="tab3">Rs.1750</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Rs.320</td>
+			<td class="tab3">Rs.120</td>
+			<td class="tab2"></td>
+		</tr>
+		<tr>
+			<th class="tablehead" colspan="3">Groceries</th>
+			<th width="80px"></th>
+			<th class="tablehead" colspan="3">Electrical Items</th>
+		</tr>
+
+		<tr>
+			<td class="tab1"><img src="Images/groc1.jpg" alt="Item13" class="subpics"></td>
+			<td class="tab1"><img src="Images/groc2.jpeg" alt="Item14" class="subpics"></td>
+			<td class="tab2"><button class="viewmore">View More...</button></td>
+			<td class="tab2"></td>
+			<td class="tab1"><img src="Images/elec1.jpg" alt="Item15" class="subpics"></td>
+			<td class="tab1"><img src="Images/ele2.jpg" alt="Item16" class="subpics"></td>
+			<td class="tab2"><button class="viewmore">View More...</button></td>
+		</tr>
+		<tr>
+			<td class="tab3">Heinz Baked Beans</td>
+			<td class="tab3">Comfort</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Beats Headset</td>
+			<td class="tab3">Room LED setRs.320</td>
+			<td class="tab2"></td>
+		</tr>
+		<tr>
+			<td class="tab3">Rs.690</td>
+			<td class="tab3">Rs.320</td>
+			<td class="tab2"></td>
+			<td class="tab2"></td>
+			<td class="tab3">Rs.12590</td>
+			<td class="tab3">Rs.2600</td>
+			<td class="tab2"></td>
+		</tr>
+		</table>
+	</div>
+
+		<br>
+		
+	 <footer>
+      	<hr class="new1"><nav class="foot">
+      	  <ul class="foot">
+  				<li><a href="">Home</a></li>
+  				<li><a href="">Promotions</a></li>
+  				<li><a href="">About Us</a></li>
+  				<li><a href="">Contact Us</a></li>
+  			</ul></nav>
+      	<hr class="new1">
+        <table class="t1" width="100%">
+          <tr>
+            <th>Online Shopping Mall</th>
+            <th >Find Shops</th>
+            <th>More</th>
+          </tr>
+          <tr>
+            <td>
+              <li>Promotion</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Category</li>
+            </td>
+            <td style="border-right: solid 1px grey; border-left: solid 1px grey;">
+              <li>Fashion House</li>
+              <li>City Food</li>
+              <li>Sephora</li>
+              <li>Nike</li>
+              <li>Wills Design</li>
+              <li>City Food pharmacy</li>
+              <li>Sarasavi</li>
+              <li>Other</li>
+            </td>
+            <td><center>
+              <a href=""><img src="Images/youtube.png" alt="Youtube"></a>
+              <a href=""><img src="Images/fb.png" alt="Facebook"></a><br><br>
+              <a href=""><img src="Images/twitter.png" alt="Twitter"></a>
+              <a href=""><img src="Images/whatsapp.png" alt="Whatsapp"></a></center>
+            </td>
+          </tr>
+        </table>
+      </footer>
+  </div>      
+</body>
+</html>

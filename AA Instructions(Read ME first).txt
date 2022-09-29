@@ -1,0 +1,99 @@
+Group - MLB 02.02_10
+ IT21008696 - Leo M.P.C
+ IT21105302 - Fernando U.S.L
+ IT21101274 - Dolawatta T.Y.R
+ IT21126956 - Wijethunge W.D.S.H
+ IT21111488 - Dilara V.G.N
+ 
+ The work done by us is written below after the instructions.
+ ----------------------------------------------------------------------------
+
+-You will only see all the pages of the site after you are logged in.
+-So please login first.
+
+
+
+-To login as a customer,
+    *You can either create a new account using sign up button
+
+    or
+
+    *use an existing account given below
+
+      1) username = nuwanW ; password = jijiji123
+      2) username = himachan ; password = himachan123
+      3) username = RanjaBae ; password = shalika123
+
+
+-To login as administrator,
+    1) Go to the login page 
+    2) Click admin login below the Login Form
+    3) Enter username as -> administrator
+    4) Enter Password as -> admin@123
+
+-Administrator is the only one who can see the admin Dashboard.
+
+
+ -Enjoy our site.
+
+--------------------------------------------------------------------------------
+
+Everyone cooperated and did the project together.As the leader i can say it was
+a great experience for all of us. -Leo
+
+--------------------------------------------------------------------------------
+
+ IT21008696 - Leo M.P.C
+
+ -index.php
+ -category.php
+ -moreDetails.php
+ -grain.php
+ -fancy.php
+ -jordan.php
+ -jersey.php
+ -sellerRequestForm.php
+ -config.php 
+ -login.php
+
+ IT21105302 - Fernando U.S.L
+
+ -index.php
+ -addToCart.php
+ -admin.php
+ -adminCon.php
+ -adminDashboard.php
+ -afterPay.php
+ -cart.php
+ -category.php
+ -config.php 
+ -deleteFromCart.php
+ -login.php
+ -logout.php
+ -order.php
+ -qtyNxt.php
+ -qtyPrev.php
+ -sellerRequestForm.php
+ -submitRegistration.php
+
+ IT21101274 - Dolawatta T.Y.R
+
+ -register.php
+ -config.php 
+ -order.php
+ -logout.php
+
+ IT21126956 - Wijethunge W.D.S.H
+
+ -promotions.php
+ -aboutUs.php
+ -config.php 
+
+ IT21111488 - Dilara V.G.N
+
+ -contactUs.php
+ -payment.php
+ -config.php 
+ -afterPay.php
+
+

@@ -1,0 +1,144 @@
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left : 25px;
+	padding-right: 25px;
+}
+
+.cart-page{
+	margin: 80px auto;
+}
+.cart-page th{
+	width: auto;
+	text-align: left;
+	padding : 5px;
+	font-family: ;
+	color: #fff;
+	background: radial-gradient(#47A,slateblue);
+	font-family: verdana,cursive;
+	font-size: 14px;
+	position: relative;
+}
+.cart-page td{
+	width: auto;
+	padding: 10px 5px;
+	position: relative;
+	font-family: Arial;
+	font-weight: 500;
+	font-size: 15px;
+	position: relative;
+}
+.cart-page td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+table.tab1{
+	width: 100%;
+	border-width: collapse;
+}
+.cart-info img{
+	align-items: left;
+	width: 130px;
+	height: auto;
+	margin-right: 6px;
+}
+
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cart-info a{
+	color: radial-gradient(#47A,slateblue);
+	font-size: 12px;
+	text-decoration: none;
+	font-family: verdana;
+	margin-left: 0px;
+}
+.cart-info a:hover{
+	color: darkcyan;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: verdana;
+
+}
+.tot-price{
+	display: flex;
+	justify-content: flex-end;
+}
+.tot-price table{
+	border-top: solid 3px #47A;
+	width: 100%;
+	max-width: 430px;
+}
+td:last-child{
+	text-align: right;
+}
+.btn-danger{
+	background-color: #f00;
+	padding: 2px;
+	color: white;
+	border: royalblue;
+}
+.btn-danger:hover{
+	color: black;
+	font-family: consolas;
+	background-image: url("../Images/btnBG1.jpeg");
+	background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: cover;
+    font-size: 15px;
+}
+.circle{
+	border-radius: 27px;
+	background-color: lightsteelblue;
+    width: 25px;
+    height: 25px;
+	padding: 4px;
+	color: rebeccapurple;
+	font-family: georgia;
+	border: solid 1px black;
+	
+}
+button.circle:hover{
+	border-radius: 27px;
+	background-color: rebeccapurple;
+    width: 25px;
+    height: 25px;
+	padding: 4px;
+	color: ghostwhite;
+	border: solid 1px black;
+	text-align: center;
+
+}
+.proceed{
+	align-items: right;
+	display: flex;
+	justify-content: flex-end;
+}
+button.order1{
+	width: 100px;
+	height: 50px;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: orange;
+	border-color: transparent;
+}
+button.order1:hover{
+	width: 110px;
+	height: 60px;
+	color: whitesmoke;
+	font-size: 18px;
+	font-family: consolas;
+	font-weight: 600;
+	background-color: rebeccapurple;
+	border-color: transparent;
+}
+input#input1[type='number']{
+	text-align: center;
+	padding: 5px;
+	width: 50px;
+}

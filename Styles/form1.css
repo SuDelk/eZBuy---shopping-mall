@@ -1,0 +1,9 @@
+.form1{
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	background: linear-gradient(darkcyan, rebeccapurple );
+	font-size: 14px;
+	font-family: verdana;
+	color: white;
+}
