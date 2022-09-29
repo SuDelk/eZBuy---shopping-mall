@@ -1,0 +1,24 @@
+
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Yoga Accessories','7 piece sets for fitness trainning exercise gym accessories yoga',11000,'./Images/sports and gym/yoga.webp','CA01');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Fitness Gloves','Sports weight lifting gym workout gloves-Elastic wrist with velcro closure',800,'./Images/sports and gym/gloves.jpg','CA01');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Badminton Rackets','Badminton rackets with shuttlecock for girls',850,'./Images/sports and gym/badminton.png','CA01');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Football Kits','Yellow colour football training kits for kids',1100,'./Images/sports and gym/football-kits.jpg','CA01');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Shoulder Presser','Seated shoulder press machine',25000,'./Images/sports and gym/Shoulder.jpg','CA01');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Weights','Weight training 16Kg weights',1800,'./Images/sports and gym/weight.jpg','CA01');
+
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Lipstick','6 colour set of HUDABEUTY matte lipsticks ',5000,'./Images/health and beauty/lipstick.jpeg','CA05');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Shampoo','PANTENE PRO-V shampoo and conditioner pack ',800,'./Images/health and beauty/shampoo.jpeg','CA05');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Body Lotion','Aroma magic honey & shea butter body lotion',1000,'./Images/health and beauty/bodylotion.jpg','CA05');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Perfume','Floral essence perfumes for girls',1200,'./Images/health and beauty/ear.png','CA05');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Makeup Set','7 makeup brushes,foundation creams,face powders and lipsticks set',6500,'./Images/health and beauty/makeup.jpg','CA05');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Blackhead Remover','YLNALO black mask peel off blackhead remover',850,'./Images/health and beauty/peeloff.jpeg','CA05');
+
+
+
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Earings','A set of pearly white and gold earing collection for casual and formal wear',1500,'./Images/fashion/ear.png','CA02');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Necklace','YAUTION Fashion Purple Nebula Space Universe Women Galaxy Crescent Moon Necklace-Silver-Plated-Half-Moon-Pendant',750,'./Images/fashion/necklace.png','CA02');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Frock','White,Red and Yellow colour floral maxi dress',4500,'./Images/fashion/dress.jpeg','CA02');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Wrist watch','Pink colour quartz luxury wrist watch for ladies',50000,'./Images/fashion/watch.jpg','CA02');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Hairpins','Pearly white Crystal hairpins for girls',950,'./Images/fashion/hairpins.jpg','CA02');
+INSERT INTO `item`(`ItemId`, `ItemName`, `ItemDescription`, `Price`, `pic`, `categoryId`) VALUES ('','Shirt','Blue colour formal shirt for men',1500,'./Images/fashion/shirt.jpeg','CA02');
+

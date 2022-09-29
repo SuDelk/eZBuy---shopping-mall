@@ -1,0 +1,8 @@
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','Beats studio3 headphones','red over-ear headphones,compatible with all smartphones,cormfortable,noisecancellation',9500,'./Images/Electronics/red1.jpg');
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','Razor Viper Gaming Mouse','Razer optical mouse switches,Razer 5G optical sensor,69 g lightweight design,16,000 DPI',12000,'./Images/Electronics/raz2.jpg');
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','JBL Flip 5 Bluetooth Speaker',', water proof,High quality sound,Light weight',18000,'./Images/Electronics/jbl.jpg');
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','Samsung 32 inch HD Ready LED TV, 4 Series 32T4050','Operating SSound: 20 Watts, Dolby Digital Plus Surround Sound Technologyystem: Tizen,Resolution: HD Ready (1366 x 768),','54000','./Images/Electronics/tv.jpg');
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','Xbox wireless controller','Robot-white,',10000,'./Images/Electronics/xbox.jpeg');
+INSERT INTO `Electronics`(`Id`, `ItemName`, `ItemDescription`, `Price`, `pic`) VALUES ('','Sony Alpha 1',' 50.1-megapixel sensor, 10-bit 8K video, Eye AF that works on birds, and more,',100000,'./Images/Electronics/sony.jpg');
+
+CREATE TABLE `ezbuy`.`electronics` ( `Id` INT NOT NULL AUTO_INCREMENT , `ItemName` VARCHAR(20) NOT NULL , `ItemDescription` VARCHAR(200) NOT NULL , `Price` FLOAT NOT NULL , `pic` VARCHAR(100) NOT NULL , PRIMARY KEY (`Id`)) ENGINE = InnoDB;
